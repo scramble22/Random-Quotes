@@ -56,6 +56,10 @@ html, body {
 
 }
 
+.testt {
+ padding: 10px 2px 2px 2px ;
+}
+
 .main-title {
 	font-family: 'Jost', sans-serif;
 	font-weight: 700;
