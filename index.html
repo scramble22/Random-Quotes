@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/nav-style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="imgs/logo/Logo RQ png.png">
+
+	<title>Random Quotes</title>
+
+</head>
+<body>
+	<nav class="nav">
+		<button class="nav-btn open-btn">
+	      <i class="fas fa-bars"></i>
+	    </button>
+	    <div class="nav nav-black">
+	      <div class="nav nav-red">
+	        <div class="nav nav-white">
+	          <button class="nav-btn close-btn">
+	            <i class="fas fa-times"></i>
+	          </button>
+
+	          <a href="index.html" ><img src="imgs/logo/Logo RQ png.png" alt="Logo" class="logo" ></a>
+
+	          <ul class="list">
+	            <li><a href="pages/all-quotes.html">Все цитаты</a></li>
+	            <li>
+	              <ul>
+	                <li><a href="pages/jojo.html">JoJo’s Bizarre Adventure</a></li>
+	                <li><a href="#">Брат</a></li>
+	                <li><a href="#">Папич</a></li>
+	                <!-- потом сделаю -->
+	                <!-- <div class="dropdown">
+					  <div class="dropbtn">RU</div>
+					  <div class="dropdown-content">
+					    <a href="index.html">RU</a>
+					    <a href="languages/eng/index.html">EN</a>
+					  </div>
+					</div> -->
+	              </ul>
+	            </li>
+	          </ul>
+	        </div>
+	      </div>
+	    </div>
+    </nav>
+
+    <div class="title">
+    	<div class="container">
+    		<h1 class="main-title">About Random Quotes</h1>
+    	</div>
+    </div>
+
+	<div class="container">
+		<p>Random Quotes ©️ это бесплатный проект для генерации случайной цитаты из фильма или аниме. Сейчас в нем есть только фразы из аниме "Невероятные приключения Джоджо", но скоро в нем будет много нового.</p>
+	</div>
+
+	<button id="jojo-btn" class="jojo-btn" onclick="document.location='pages/jojo.html'">Отправиться на страницу по ДжоДжо</button>
+
+	<form action="https://scramble22.github.io/My-portfolio/" target="_blank">
+    	<button id="jojo-btn" class="jojo-btn">О разработчике</button>
+	</form>
+
+	<script src="js/jojo.js"></script>
+	<script src="js/nav.js"></script>
+</body>
+</html>
