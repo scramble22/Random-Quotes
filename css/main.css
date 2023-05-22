@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
 @import "./reset.css";
 
 /*  font-family: 'Jost', sans-serif;
-	font-family: 'Nabla', cursive;   */
+	font-family: 'Nabla', cursive;
+	font-family: 'Pangolin', cursive;
+	font-family: 'Nanum Gothic', sans-serif;   */
 
 
 :root {
@@ -15,6 +19,8 @@
 	--purple: #5C62EC;
 	--dark-blue: #014891;
 	--axcid-green: #00e600;
+	--very-light-green: #E2FCEF;
+	--very-light-yellow: #EDF7D2;
 	--light-green: #80F9AE;
 	--light-blue: #7CE9F3;
 
@@ -25,7 +31,7 @@
 	--darkmode-icon-bg: var(--gray);
 
 	/*Light Mode*/
-	--page-bg: var(--white);
+	--page-bg: var(--very-light-green);
 	--text-color: var(--black);
 
 	--accent: var(--purple);
@@ -51,7 +57,13 @@ html, body {
 	color: var(--text-color);
 }
 
+h2 {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 700;
+}
+
 p {
+	margin-top: 10px;
 	text-align: center
 }
 
@@ -68,6 +80,7 @@ p {
 
 .title {
 	font-family: 'Nabla', cursive;
+	font-size: 40px;
 	text-align: center;
 }
 
@@ -156,6 +169,31 @@ p {
     display: block;
 }
 
+.social {
+	transform: scale(1.4);
+  position: absolute;
+  bottom: 5px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social li {
+  list-style: none;
+}
+
+.social li a {
+  display: inline-block;
+  filter: invert(1);
+  margin-right: 10px;
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+
+.social li a:hover {
+  transform: scale(0.5) translateY(-15px);
+}
 
 .jojo-btn {
 	padding: 0 19px;
@@ -176,6 +214,11 @@ p {
 /*прозрачность кнопки при наведении*/
 .jojo-btn:hover {
 	opacity: 0.8;
+}
+
+img {
+	margin: 5px auto 0px auto; 
+	display: block;
 }
 
 /*эффект нажатия кнопки:)*/
