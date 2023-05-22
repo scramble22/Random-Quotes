@@ -2,6 +2,9 @@
 
 Random Quotes ©️ is a free project to generate a random quote from a movie or anime. There are already phrases from the anime "The Incredible Adventures of Jojo", quotes from Papich, as well as funny pictures with Kussia, I think there will be a lot of new things in it soon.
 
+Test it
+https://scramble22.github.io/Random-Quotes/
+
 Under u can see some screenshots
 
 ![1](https://github.com/Scramble22/Random-Quotes/assets/131589019/afa37ae8-053f-4cbd-aa10-2123ddb7b2b4)
