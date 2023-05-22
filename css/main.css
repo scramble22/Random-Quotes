@@ -234,6 +234,7 @@ img {
 	}
 
 	.social {
+		display: none !important;
     transform: scale(1.2);
 	}
 }
