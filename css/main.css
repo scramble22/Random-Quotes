@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Nabla&display=swap');
+@import "./reset.css";
 
 /*  font-family: 'Jost', sans-serif;
 	font-family: 'Nabla', cursive;   */
@@ -42,22 +43,22 @@ html, body {
 	font-weight: 400;
 	font-size: 25px;
 	letter-spacing: -0.5px;
-	min-height: 100vh;
+	min-height: 100%;
+
 
 	/*Light Mode*/
 	background-color: var(--page-bg);
 	color: var(--text-color);
- }
+}
 
- .container {
+p {
+	text-align: center
+}
+
+.container {
 	margin: 0 auto;
 	padding: 0 19px;
 	max-width: 1200px;
-
-}
-
-.testt {
- padding: 10px 2px 2px 2px ;
 }
 
 .main-title {
@@ -66,7 +67,6 @@ html, body {
 }
 
 .title {
- overflow: hidden;
 	font-family: 'Nabla', cursive;
 	text-align: center;
 }

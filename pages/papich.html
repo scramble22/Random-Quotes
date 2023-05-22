@@ -3,10 +3,67 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link
+	  rel="stylesheet"
+	  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+	  integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+	  crossorigin="anonymous"
+	/>
+	<link rel="stylesheet" href="../css/nav-style.css" />
+	<link rel="stylesheet" href="../css/main.css" />
 	<link rel="icon" href="../imgs/logo/Logo RQ png.png">
-	<title>Document</title>
+	<title>Jojo's Random Quotes</title>
 </head>
 <body>
-	
+	<nav class="nav">
+		<button class="nav-btn open-btn">
+		  <i class="fas fa-bars"></i>
+		</button>
+		<div class="nav nav-black">
+		  	<div class="nav nav-red">
+				<div class="nav nav-white">
+			  	<button class="nav-btn close-btn">
+					<i class="fas fa-times"></i>
+			  	</button>
+
+			  	<a href="../index.html" ><img src="../imgs/logo/Logo RQ png.png" alt="Logo" class="logo" ></a>
+
+			  	<ul class="list">
+					<li><a href="all-quotes.html">Все цитаты</a></li>
+					<li>
+				  	<ul>
+						<li><a href="jojo.html">JoJo’s Bizarre Adventure</a></li>
+						<li><a href="">Папич</a></li>
+						<li><a href="#">Куссия</a></li>
+				  	</ul>
+					</li>
+			  	</ul>
+			  	<!-- <div class="dropdown">
+					<div class="dropbtn">RU</div>
+					  	<div class="dropdown-content">
+							<a href="jojo.html">RU</a>
+							<a href="D:\1.sites\2.phrases from films\languages\eng\pages\jojo.html">EN</a>
+					  	</div>
+					</div>
+				</div> -->
+			</div>
+		  </div>
+		</div>
+	</nav>
+
+	<div class="title">
+		<div class="container">
+			<h2 class="title-2">Папич</h2>
+		</div>
+	</div>
+
+	<button id="changeQuote" class="changeQuote">Выдать цитату (18+)</button>
+	<div class="container">
+		<p id="test"></p>
+	</div>
+
+
+	<script src="../js/papich.js"></script>
+	<script src="../js/nav.js"></script>
 </body>
 </html>

@@ -25,5 +25,3 @@ document.getElementById("changeQuote").addEventListener("click", function() {
         document.getElementById("test").innerHTML = q;    
     }, 1500); 
 });
-
-//quotes.push("smth"); после введения чего-то пользователя это надо добавить
