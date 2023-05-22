@@ -229,10 +229,12 @@ img {
 
 
 @media (max-width: 620px) {
-	.footer {
-		padding: 37px 0 27px;
+	.jojo-btn {
+		height: 51px;
 	}
-	.social__item {
-		width: 255px;
+
+	.social {
+    transform: scale(1.2);
 	}
 }
+
